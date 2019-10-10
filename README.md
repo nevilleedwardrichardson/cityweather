@@ -8,3 +8,4 @@ Code and image use within the app
 Notes: 
 1) You may need to use your own OPEN_WEATHER_MAP_API from https://openweathermap.org
 2) The app does not look for location updates as that would have been a lot more work so takes the current location from fusedLocationClient.getLastLocation(). Ideally it would scan for the location and also check the GoogleAPIClient is connected for play services etc.
+3) There is none of the optional unit testing included.
